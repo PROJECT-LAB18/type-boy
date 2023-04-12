@@ -58,14 +58,17 @@ type Addf = {
 }
 
 // next.js에는 라우터를 가지고 있는데, 그 때 이 오버로딩을 많이 활용한다. 
+
 type Config = {
   path : string,
   state : object 
 }
+
 type Push = {
   (path:string) :void
   (config:Config) :void
 }
+
 const push:Push = (config)=>{
   if(typeof config === 'string') console.log(config);
   else {
@@ -110,7 +113,7 @@ const istrue = superprint([true, false, true]);
 
 // 엥? 그럼 any를 지정해주는 것하고는 뭐가 달라? 
 /* ex1) 
-  istrue.toUpperCase()
+istrue.toUpperCase()
 를 했을 때 any로 지정하게 되면 실행 시의 오류를 막을 수 없게 된다.   */
 
 
