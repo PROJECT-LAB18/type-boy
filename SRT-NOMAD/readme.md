@@ -3,6 +3,7 @@
 💙 성령 ([@sryung1225](https://github.com/sryung1225)) <br>
 💙 2023.04.05 -
 
+- [x] [코딩애플](https://www.youtube.com/watch?v=xkpcNolC270)
 - [x] [코딩앙마](https://youtube.com/playlist?list=PLZKTXPmaJk8KhKQ_BILr1JKCJbR0EGlx0)
 - [ ] [노마드코더](https://nomadcoders.co/typescript-for-beginners)
 
@@ -58,3 +59,7 @@ function addTS(num1:number, num2:number){ // 숫자 타입 지정
 addTS(1, 2); // ? 3
 // addTS("hello", "world"); // 에러로 실행 불가
 ```
+
+<br>
+
+## JavaScript vs TypeScript

@@ -4,6 +4,7 @@
   ], // 어느 폴더에 있는 ts 파일에 접근할 것인가 ?
   "compilerOptions": {
     "outDir": "build", // ts 파일을 컴파일해 만든 js 파일을 어느 폴더에 둘 것인가 ?
-    "target": "ES6" // 어떤 버전의 js 파일로 만들 것인가 ?
+    "target": "ES6", // 어떤 버전의 js 파일로 만들 것인가 ?
+    "module": "commonjs"
   }
 }
